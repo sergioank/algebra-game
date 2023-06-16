@@ -1,0 +1,106 @@
+/* html{
+} */
+
+/* body {
+  background-color: #A7C7E7;
+  /* background-color: #0094C6; */
+  /* background-color: #133C55; */
+  /* background-color: #F1EDEE; */
+} */
+
+body {
+  margin: 0;
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+#myParticlesCanvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#navbar-title{
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #001242;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+#myGridCanvas, #myRadarCanvas, #paperCanvas {
+  border: 2px solid black;
+}
+.canvas-container {
+  /* background-color: #f0f0f0; */
+  /* background-color: #000022; */
+  /* background-color: #386FA4; */
+  background-color: #3D5467;
+  position: relative;
+}
+
+.canvas-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#myRadarCanvas {
+  background-color: black;
+}
+
+#myGridCanvas {
+  z-index: 1;
+}
+
+#paperCanvas {
+  background-color: white;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #A7C7E7;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
